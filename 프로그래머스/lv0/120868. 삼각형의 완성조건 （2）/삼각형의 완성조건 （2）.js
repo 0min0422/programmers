@@ -8,10 +8,11 @@ function solution(sides) {
         }
         
     }
-    for(let i =1; i<=10000; i++){
+    for(let i =1; i<=ans+ans1; i++){
         if(i<ans+ans1 && i>ans) {
             answer.push(i)
         }
     }
     return answer.length;
 }
+
